@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Cheat Sheet</title>
+</head>
+
+<body>
+    <a href="blog.html">go to blog</a>
+    <hr>
+    <!-- Headings -->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!-- Paragraphs -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Veritatis id <strong>placeat recusandae</strong> optio ab aut earum a
+        nostrum. Mollitia animi <em>perferendis provident</em>, quo
+        officia distinctio saepe commodi aliquam quam sunt.
+    </p>
+    <!-- For links local or external -->
+    <p>Lorem ipsum <a href="https://google.com" target="_blank">dolor</a>
+        sit amet consectetur adipisicing elit.
+        Veritatis id placeat recusandae optio ab aut earum a
+        nostrum. Mollitia animi perferendis provident, quo
+        officia distinctio saepe commodi aliquam quam sunt.
+    </p>
+    <!-- Lists -->
+    <!-- UnOrderd list -->
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+    <!-- Orderd list -->
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+
+    <!-- Tables -->
+    <table>
+        <!-- Table_Head -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <!--Table Body-->
+        <tbody>
+            <tr>
+                <td>Mvula</td>
+                <td>mvula@gmail.com</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Travis</td>
+                <td>travy@gmail.com</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Kyle</td>
+                <td>kyle1@gmail.com</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <!-- Forms -->
+    <!-- the "action" attr submit the form to a certain page-->
+    <!-- the "method" attr ... -->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Enter first name">
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+    <!-- Button -->
+    <button>Click Me</button>
+    <br>
+    <!-- Image-->
+    <a href="./images/tooN .jpg" target="_blank">
+        <img src="./images/tooN .jpg" alt="Picture of Zoocci" width="200px">
+    </a>
+
+    <!-- Quotations -->
+    <blockquote cite="(where the quote comes from)">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Tempora aliquam eius, expedita quos quam repellat unde
+        tempore corporis sed. Sint earum numquam, pariatur provident
+        nemo qui dolores similique quo! Similique unde provident
+        illum fugit. Laboriosam fugit voluptate, dolorum atque
+        exercitationem temporibus molestiae nobis ratione aliquam
+        deserunt commodi provident perspiciatis voluptatum,
+        optio doloribus sunt dicta culpa.
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+    <p><cite>HTML Crahs Course</cite> by Brad Traversy</p>
+
+    <div style="margin-top:350px"></div>
+</body>
+
+</html>
